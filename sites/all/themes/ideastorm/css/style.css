@@ -294,7 +294,7 @@ ul.tips {
 }
 #logo {
   float: left; /* LTR */
-  padding: 15px 15px 15px 10px; /* LTR */
+  padding: 35px 15px 15px 25px; /* LTR */		/* Customize these values to adjust the logo location*/
 }
 #name-and-slogan {
   float: left; /* LTR */
@@ -1652,4 +1652,10 @@ div.admin-panel .description {
 #header{
   background-color:transparent;
   background-image:none;
+}
+
+/* ------------------ Custom css ------------------------------- */
+
+option:disabled {					/* Hiding the taxonomy terms (themes for ideas) for which the user does not have access */
+display:none;
 }
